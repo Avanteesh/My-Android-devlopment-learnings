@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingLeft="16dp"
+              android:paddingRight="16dp"
+              android:orientation="vertical" >
+    <TextView android:text="CGPA Calculator" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView
+            android:layout_width="6dp" android:layout_height="6dp"
+            android:src="@drawable/ic_launcher_background"
+            android:layout_gravity="center"
+    />
+    <TextView android:text="Student Name" android:layout_height="wrap_content" android:layout_width="wrap_content" />
+    <EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:hint="enter student" />
+    <EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="enter registration no."/>
+    <TextView android:text="Subject Marks" android:layout_height="wrap_content" android:layout_width="wrap_content" />
+    <TextView android:text="subject 1" android:layout_height="wrap_content" android:layout_width="wrap_content" />
+    <EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="enter marks" />
+   <TextView android:text="subject 2" android:layout_height="wrap_content" android:layout_width="wrap_content" />
+    <EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="enter marks" />
+   <TextView android:text="subject 3" android:layout_height="wrap_content" android:layout_width="wrap_content" />
+    <EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="enter marks" />
+    <Button android:text="calculate cgpa" android:layout_width="3dp" android:layout_height="3dp"/>
+</LinearLayout>
